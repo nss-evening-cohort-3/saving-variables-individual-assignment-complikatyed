@@ -12,10 +12,10 @@ This solution contains:
 
 ## Rules
 
-- Create a model and matching migration for saving variables  usign created or supplied ERD.
+- Create a model and matching migration for saving variables  using created or supplied ERD.
 - Implement the Repository Pattern
 - There should be Unit Tests on all classes and methods you create.
-- Your solution should have at least 2 total projects. Unit Tests should be in it's own project.
+- Your solution should have at least 2 total projects. Unit Tests should be in its own project.
 - This is an OOP focused class. Therefore, there will be classes. Your `Program` class and `Main` method should only be responsible for receiving user input and printing output.
 - If a user submits an incomplete command or expression, the application should **not** attempt to evaluate it but print out a useful message.
 
@@ -64,7 +64,7 @@ Variables have one character length names that holds a positive or negative inte
 ### Database Commands
 
 - `clear all`, `remove all` and `delete all` - removes all saved entries from the database
-- `show all` - prints out all variables (with their values) in tabular form saved within the database. Note: Variables should be listed in alphabitcal order. See example below.
+- `show all` - prints out all variables (with their values) in tabular form saved within the database. Note: Variables should be listed in alphabetical order. See example below.
 
 ```sh
 >> x = 3
@@ -85,7 +85,7 @@ Variables have one character length names that holds a positive or negative inte
 
 ## Challenges
 
-The following are optional and stretch goals for those who finish this exercise early and want to move to greater heights. These Challenges are not required and can be completed in any order.
+The following are optional and stretch goals for those who finish this exercise early and want to move to greater heights. These challenges are not required and can be completed in any order.
 
 ### Better `show all` read-out
 
