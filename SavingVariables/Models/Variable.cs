@@ -16,7 +16,7 @@ namespace SavingVariables.Models
         [Required]
         public string Name { get; set; }
 
-        [MaxLength(length: 1, ErrorMessage = "Choose one character, please.")]
+        [Required]
         public int Value { get; set; }
     }
 }
